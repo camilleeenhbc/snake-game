@@ -1,0 +1,35 @@
+# GameBoard test
+
+# Test case 1: GameBoard_01
+
+Input: None
+
+Expected output: The black board is displayed with green snake, dark green snake head and red food.
+
+MATLAB output: The black board is displayed with green snake, dark green snake head and red food.
+
+
+# Test case 2: GameBoard_02
+
+Input: None
+
+Expected output: 
+- The black board is displayed with green snake, dark green snake head and red food.
+- The message box to describe rules for the player also pop up.
+
+MATLAB output: (see in test_02.png)
+- The black board is displayed with green snake, dark green snake head and red food.
+- The message box to describe rules for the player also pop up.
+
+
+# Test case 3: GameBoard 
+
+Input: None
+
+Expected output: 
+- The beige-colored board is displayed with blue snake, dark blue snake head and dark red food.
+- The message box to describe rules for the player also pop up.
+
+MATLAB output: (see in test_03.png)
+- The beige-colored board is displayed with blue snake, dark blue snake head and dark red food.
+- The message box to describe rules for the player also pop up.

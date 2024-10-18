@@ -1,0 +1,23 @@
+# gameOver_test
+
+# gameOver_01
+
+Action                                          Expected reaction                                       Actual reaction
+
+Snake keeps moving without biting itself        Nothing happened                                        Nothing happened
+
+Snake bites itself                              - Games stops                                           - Game stops
+                                                - Game board turns to black                             - Game board turns to black
+                                                - 'Game over' message box pops up                       - 'Game over' message box pops up
+
+
+# gameOver
+
+Action                                          Expected reaction                                                       Actual reaction
+
+Snake keeps moving without biting itself        Nothing happened                                                        Nothing happened
+
+Snake bites itself                              - Games stops, pause 2 seconds                                          - Game stops, pause 2 seconds 
+                                                - Losing sound is played                                                - Losing sound is played
+                                                - Game board turns to black                                             - Game board turns to black
+                                                - 'Game over' message box pops up, display player's final score         - 'Game over' message box pops up, display player's final score

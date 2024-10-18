@@ -1,0 +1,78 @@
+# welcoming_test
+
+Test case 1:
+ 
+Input: Camille
+Expected output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: Camille
+Hi Camille, welcome to Snake game!
+Please press enter to start the game
+
+MATLAB output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: Camille
+Hi Camille, welcome to Snake game!
+Please press enter to start the game
+
+%--------------------------------------------------------------------------
+Test case 2:
+ 
+Input: RED
+Expected output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: RED
+Hi RED, welcome to Snake game!
+Please press enter to start the game
+
+MATLAB output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: RED
+Hi RED, welcome to Snake game!
+Please press enter to start the game
+
+%--------------------------------------------------------------------------
+Test case 3:
+ 
+Input: Bla123
+Expected output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: Bla123
+Hi Bla123, welcome to Snake game!
+Please press enter to start the game
+
+MATLAB output:
+  ____              _ 
+ / ___| _ __   __ _| | _____
+ \___ \| '_ \ / _` | |/ / _ \
+  ___) | | | | (_| |   <  __/ 
+ |____/|_| |_|\__,_|_|\_\___|
+
+Please enter your name: Bla123
+Hi Bla123, welcome to Snake game!
+Please press enter to start the game

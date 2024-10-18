@@ -1,0 +1,17 @@
+# snakeGame_01_test
+
+Input: None
+
+Expected output:
+- Figure window with axes displayed on the left-hand side
+- Playing push button displayed on the right-hand side, included: end game, 
+start game , up, down, right, left and pause
+- Score label displayed with score text as 0 in a white box
+
+MATLAB output: (see in test_01.png)
+- Figure window displayed on the left-hand side, however the axes is not
+displayed as I set its 'Visible' to 'off'
+- Playing push button displayed on the right-hand side, included: end game, 
+start game , up, down, right, left and pause
+- Score label displayed with score text as 0 in a white box
+

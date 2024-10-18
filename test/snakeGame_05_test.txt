@@ -1,0 +1,70 @@
+# snakeGame_05_test
+
+1. Figure
+
+Input: None
+
+Expected output:
+- Figure window with axes displayed on the left-hand side, with the title 'Snake Game'
+- The black game board with green snake and red food is displayed in the figure window
+- Playing push button displayed on the right-hand side, included: end game,start game , up, down, right, left and pause
+- Score label displayed with score text as 0 in a white box
+
+MATLAB output: (see in test_02.png)
+- Figure window displayed on the left-hand side, with the title 'Snake Game'
+- The black game board with green snake and red food is displayed in the figure window
+- Playing push button displayed on the right-hand side, included: end game, start game , up, down, right, left and pause
+- Score label displayed with score text as 0 in a white box
+
+
+
+2. Push button call back
+
+case #		Input					Expected output					MATLAB output		
+
+Start game	src,event - 'Mouse click'		Snake start moving				Snake didn't move - because I set its move_status to 0
+
+Left		src,event - 'Mouse click'		Snake changes its direction to the left		- If snake is moving to the right, nothing happened.
+													- If not, snake changes its direction to the left
+
+Right		src,event - 'Mouse click'		Snake changes its direction to the right	- If snake is moving to the left, nothing happened.
+													- If not, snake changes its direction to the right
+
+Up		src,event - 'Mouse click'		Snake moves upwards				- If snake is moving downwards, nothing happened.
+													- If not, snake moves upwards
+
+Down		src,event - 'Mouse click'		Snake moves downwards				- If snake is moving upwards, nothing happened.
+													- If not, snake moves downwards
+
+Pause		src,event - 'Mouse click'		Snake stops moving				Snake stops moving
+
+End game 	src,event - 'Mouse click'		Snake stop moving				Snake stop moving
+
+
+3. Keypress function
+
+case #		Input				Expected output					MATLAB output		
+
+Left		Press 'leftarrow'		Snake changes its direction to the left		- If snake is moving to the right, nothing happened.
+												- If not, snake changes its direction to the left
+
+Right		Press 'rightarrow'		Snake changes its direction to the right	- If snake is moving to the left, nothing happened.
+												- If not, snake changes its direction to the right
+
+Up		Press 'uparrow'			Snake moves upwards				- If snake is moving downwards, nothing happened.
+												- If not, snake moves upwards
+
+Down		Press 'downarrow'		Snake moves downwards				- If snake is moving upwards, nothing happened.
+												- If not, snake moves downwards
+
+Pause		Press 'return'			Snake stops moving				Snake stops moving
+
+
+3. GAME TESTING
+
+Action                  Expected reaction                                       Actual reaction
+
+Snake eats food         - Food disappear and reappear in another position       - Food disappear and reappear in another position
+                        - Snake grows longer                                    - Snake grows longer
+
+Snake bites itself      - Game over                                             - Game over

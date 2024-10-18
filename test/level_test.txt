@@ -1,0 +1,12 @@
+# level_test
+
+Test case #         Input                                   Expected ouput                                              MATLAB output
+
+Easy                Click 'Start game' -> Click 'Easy'      - Snake moves in a slow speed                               - Snake moves in a slow speed
+                                                            - If it reaches to 5, 10, 15 point, its speed increases     - If it reaches to 5, 10, 15 point, its speed increases
+
+Medium              Click 'Start game' -> Click 'Medium'    - Snake moves in a slightly faster speed                    - Snake moves in a slightly faster speed 
+                                                            - If it reaches to 5, 10, 15 point, its speed increases     - If it reaches to 5, 10, 15 point, its speed increases
+
+Hard                Click 'Start game' -> Click 'Hard'      - Snake moves in a fastest speed                            - Snake moves in a fastest speed   
+                                                            - If it reaches to 5, 10, 15 point, its speed increases     - If it reaches to 5, 10, 15 point, its speed increases
